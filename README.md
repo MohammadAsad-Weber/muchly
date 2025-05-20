@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍽️ Munchly – Food Delivery UI
 
-## Getting Started
+**Munchly** is a sleek and responsive frontend application for a food delivery service. Built with **Next.js**, it offers intuitive features like category-based browsing, wishlist management, and dynamic cart operations.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Category-Based Browsing**: _Navigate through various food categories seamlessly._
+- **Wishlist Functionality**: _Add or remove items from your wishlist with ease._
+- **Dynamic Cart Management**: _Add items to the cart, adjust quantities, or remove them entirely._
+- **State Persistence**: _Cart and wishlist states are retained using `redux-toolkit`._
+- **Responsive Design**: _Optimized for desktops, tablets, and mobile devices._
+- **Interactive Notifications**: _Real-time feedback using `react-hot-toast`._
+- **Loading Indicators**: _Enhanced user experience with CSS loaders from [css-loaders](https://cssloaders.github.io/)._
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Framework**: [Next.js](https://nextjs.org/)
+- **State Management**: [Redux Toolkit](https://redux-toolkit.js.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Notifications**: [React Hot Toast](https://react-hot-toast.com/)
+- **Loading Indicators**: [CSS Loaders](https://cssloaders.github.io/)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Home](/screenshots/Home.png)
+![Menu](/screenshots/Menu.png)
+![Wishlist](/screenshots/Wishlist.png)
+![Cart](/screenshots/Cart.png)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧪 Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/MohammadAsad-Weber/munchly.git
+   cd munchly
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open in browser**:
+
+   Navigate to http://localhost:3000 to view the application.
+
+
+## 📁 Project Structure
+
+   ```ini
+   munchly/
+   ├── app/                # Next.js app directory
+   ├── components/         # Reusable UI components
+   ├── data/               # Static data and mock APIs
+   ├── layouts/            # Layout components
+   ├── public/             # Public assets
+   ├── redux/              # Redux slices and store
+   ├── utilities/          # Utility functions
+   ├── README.md           # Documentation
+   ```
+
+
+## 📚 Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Redux Toolkit Documentation](https://redux-toolkit.js.org/introduction/getting-started)
+- [React Hot Toast Documentation](https://react-hot-toast.com/docs)
+
+
+## 🙌 Acknowledgements
+
+- css-loaders for the loading animations.
+- React Hot Toast for the toast notifications.
+
+
+## 👨‍💻 Author
+
+Mohammad Asad  
+Frontend Developer & MERN Stack Enthusiast
+
+LinkedIn: [Mohammad Asad](https://www.linkedin.com/in/mohammad-asad-091b6a217/)  
+Twitter: [@IronCodeNagi](https://twitter.com/IronCodeNagi)
